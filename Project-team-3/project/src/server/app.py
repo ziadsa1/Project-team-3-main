@@ -9,6 +9,9 @@ import requests
 import random
 import smtplib
 import re
+
+#code 
+
 app = Flask(__name__)
 CORS(app)
 url = "mongodb+srv://dpuser:dpuser1234@study-app.hmoxuz2.mongodb.net/?retryWrites=true&w=majority&appName=study-app"
