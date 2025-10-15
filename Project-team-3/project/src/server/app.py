@@ -79,6 +79,7 @@ def register():
     username = data.get("username")
     password = data.get("password")
     email = data.get("email")
+    
     if not(re.match(fixed_pattern, email)):
         return jsonify({"message":"Wrong Email!"}), 400
 
